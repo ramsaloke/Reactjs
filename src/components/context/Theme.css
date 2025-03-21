@@ -1,0 +1,29 @@
+
+body {
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s , color 0.3s;
+}
+
+.dark-theme {
+    background-color: #222;
+    color : white;
+}
+.light-theme {
+    background-color: #fff;
+    color : black;
+}
+
+.theme-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    background-color: royalblue;
+    cursor: pointer;
+
+}
+.theme-button:hover{
+    background-color: dodgerblue;
+}

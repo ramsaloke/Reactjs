@@ -1,0 +1,22 @@
+
+.list {
+    list-style-type: none;
+ padding: 0;
+ margin-left: 0;
+ width: 200px;
+ 
+}
+.list-item {
+    padding :10px ;
+    margin: 20px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.list-item.selected {
+    background-color: blue;
+    color: white
+}
+
