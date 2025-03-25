@@ -1,0 +1,28 @@
+.outer {
+    margin-left: -59px;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background-color: lightblue; /* Light blue background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;/* Add some padding */
+    box-sizing: border-box; /* Ensure padding is included in width/height */
+  }
+.div-white{
+    background-color: white;
+    color:black;
+    }
+.Dark-Mode{
+    background-color: grey;
+    color: white
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
